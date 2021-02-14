@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Arreglos</title>
+</head>
+<body>
+
+  <form action="">
+     <input type="text" id="numero1">
+     <input type="text" id="numero2">
+     <input type="button" value="Sumar" onclick="alert( suma(10,50));" >
+  <form>
+  <script>
+    var amigos = ["Carlos","Cesar","Alex"];
+    var amigos2=["Luis","Fernando","Oscar"];
+    var amigos3 = amigos.concat(amigos2);
+    document.write(amigos3);
+    document.write(amigos.join("-"));
+    document.write(amigos.lenght);
+    document.write("<br>");
+    var ordenados = amigos.sort();
+    document.write(ordenados);
+    document.write("<br>");
+    var enreversa = amigos.reverse();
+    document.write(enreversa);
+    document.write("<br>");
+    for (i=0; i <= amigos.length; i++){
+    	document.write("ciclo for " + i +" "+ amigos[i] + "<br>");
+        }
+        var i = 0;
+    while (i <= amigos.length) {
+      document.write("ciclo while " + i + " "+amigos[i]+ "<br>");
+      i++;
+    }
+    var i = 0;
+    
+    /*do{
+       document.write("ciclo do while " + i + " "+amigos[i]+ "<br>");
+    } while(i<=amigos.length);
+    */
+
+    var suma = function(numero1, numero2){
+      var numero1 = parseInt(document.getElementById("numero1").value);
+      var numero2 = parseInt(document.getElementById("numero2").value);
+       var resultado = numero1+numero2;
+       return resultado;
+    }
+    document.write (suma(10,20));
+
+  </script>
+</body>
+</html>

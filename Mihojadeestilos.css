@@ -1,0 +1,90 @@
+@charset "utf-8";
+/*CSS  Document */
+
+/*body{
+	background-color: #00F;
+}*/
+
+
+       
+    #headerppal {
+            background-color:#deedd8;
+            display:flex;
+            /*align-items: center*/
+            /*
+            .logo-width {
+                    width:110px;
+                }
+                @media_all (min-width:267px) {
+                    .logo-width {
+                        width:125px;
+                        
+                    }
+                }
+            */
+    };
+ 
+    #navppal{background-color:#ccffcc;
+                    float:left;
+                    
+    }
+    
+    @font-face{
+        font-family:'Mipropiafuente';
+        src:url('Verdana.TTF');
+    }
+    
+    #figureppal{
+        float:left;
+        font:20px 'Mipropiafuente', Geneva, sans-serif;
+    }
+            
+    #obras_de_arte {
+           /* background-color:#ffccff;
+            display:flex;
+            align-items: Left;
+           */     
+    }
+    #contentheader {
+            background-color:#deedd8;
+            display:flex;
+            width:480px;
+            padding-left: 180px;
+            /*border:3px solid color #ccccff;*/
+            /*justify-content: space-between;*/
+            border-radius:5px;
+          
+    }
+      
+
+/*#contentheader{background-color:#FF33F0;*/
+/*Separa la caja del borde izq de la pagina*/
+/*			margin-left: 250px;*/ 
+/*Separa el texto del borde de la caja*/
+/*                        }  */
+
+
+
+
+
+
+#footerppal{background-color:#99ffcc;
+			clear:both;}
+
+
+/*#lateralbar{background-color:#33F0FF;*/
+/*			float:left;*/
+/*			height:200px;}*/ 
+
+
+
+/*#contentppal{background-color:#FF33F0;*/
+/*			margin-left: 250px; /*Separa la caja del borde izq de la pagina*/
+/*                        padding-left: 50px;}  /*Separa el texto del borde de la caja*/
+
+
+/*
+#li{background-color:#F0F;
+   display:inline;}
+
+*/
